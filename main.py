@@ -57,7 +57,7 @@ def convex_hull_jarvis(points):
 
     return hull
 
-# Example usage
+# Example usage from assignment
 if __name__ == "__main__":
 
     points = [

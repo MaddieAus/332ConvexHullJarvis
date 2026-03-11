@@ -45,7 +45,7 @@ class TestConvexHull(unittest.TestCase):
             (0,1)
         ]
 
-        self.assertEqual(set(hull), set(expected)) # doesn't really matter the order just that the points are the same
+        self.assertEqual(set(hull), set(expected)) # doesn't really matter the order just that the points are the same.
 
     def test_triangle(self):
         points = [
