@@ -1,3 +1,4 @@
+from typing import List, Tuple
 """
 Madison Grace Austin
 CSCI 332 Spring 2025
@@ -8,6 +9,10 @@ I am fully aware of the consequences of academic dishonesty and agree to abide b
 university's academic integrity policy. I understand the importance the consequences of
 plagiarism.
 """
+
+
+
+Point = Tuple[float, float]
 
 # Function to compute orientation of three points
 def get_orientation(p, q, r):
@@ -22,7 +27,8 @@ def get_orientation(p, q, r):
         return 2      # clockwise
 
 
-def convex_hull_jarvis(points):
+
+def convex_hull_jarvis(points: List[Point]) -> List[Point]:
 
     n = len(points)
 
